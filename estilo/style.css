@@ -1,0 +1,62 @@
+/* Remove margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0; /* Inclui bordas e paddings no tamanho total dos elementos */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 2cap;
+    box-sizing: border-box;
+    list-style-type: none;  
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: #aa706d;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+p {
+    text-align: justify;
+    padding: 0px 300px 0px 300px;
+    font-size: 20px; 
+}
+
+.origem {
+    background-color:  white;
+    color: rgb(78, 78, 73);
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#aa706d ;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
